@@ -54,10 +54,11 @@ type Package2_1 struct {
 	// the SPDX document file itself.
 	PackageVerificationCodeExcludedFile string
 
-	// 3.10: Package Checksum: may have keys for SHA1, SHA256 and/or MD5
+	// 3.10: Package Checksum: may have keys for SHA1, SHA256, SHA512 and/or MD5
 	// Cardinality: optional, one or many
 	PackageChecksumSHA1   string
 	PackageChecksumSHA256 string
+	PackageChecksumSHA512 string
 	PackageChecksumMD5    string
 
 	// 3.11: Package Home Page

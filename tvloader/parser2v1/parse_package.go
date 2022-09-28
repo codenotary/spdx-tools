@@ -109,6 +109,8 @@ func (parser *tvParser2_1) parsePairFromPackage2_1(tag string, value string) err
 			parser.pkg.PackageChecksumSHA1 = subvalue
 		case "SHA256":
 			parser.pkg.PackageChecksumSHA256 = subvalue
+		case "SHA512":
+			parser.pkg.PackageChecksumSHA512 = subvalue
 		case "MD5":
 			parser.pkg.PackageChecksumMD5 = subvalue
 		default:
