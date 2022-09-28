@@ -108,7 +108,7 @@ func (parser *tvParser2_2) parsePairFromPackage2_2(tag string, value string) err
 			parser.pkg.PackageChecksums = make(map[spdx.ChecksumAlgorithm]spdx.Checksum, 9)
 		}
 		switch subkey {
-		case spdx.SHA1, spdx.SHA256, spdx.MD5:
+		case spdx.SHA1, spdx.SHA256, spdx.SHA512, spdx.MD5:
 			algorithm := spdx.ChecksumAlgorithm(subkey)
 			parser.pkg.PackageChecksums[algorithm] = spdx.Checksum{Algorithm: algorithm, Value: subvalue}
 		default:

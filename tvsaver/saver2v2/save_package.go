@@ -64,6 +64,9 @@ func renderPackage2_2(pkg *spdx.Package2_2, w io.Writer) error {
 	if pkg.PackageChecksums[spdx.SHA256].Value != "" {
 		fmt.Fprintf(w, "PackageChecksum: SHA256: %s\n", pkg.PackageChecksums[spdx.SHA256].Value)
 	}
+	if pkg.PackageChecksums[spdx.SHA512].Value != "" {
+		fmt.Fprintf(w, "PackageChecksum: SHA512: %s\n", pkg.PackageChecksums[spdx.SHA512].Value)
+	}
 	if pkg.PackageChecksums[spdx.MD5].Value != "" {
 		fmt.Fprintf(w, "PackageChecksum: MD5: %s\n", pkg.PackageChecksums[spdx.MD5].Value)
 	}

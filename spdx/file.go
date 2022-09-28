@@ -21,6 +21,7 @@ type File2_1 struct {
 	// Cardinality: mandatory, one SHA1, others may be optionally provided
 	FileChecksumSHA1   string
 	FileChecksumSHA256 string
+	FileChecksumSHA512 string
 	FileChecksumMD5    string
 
 	// 4.5: Concluded License: SPDX License Expression, "NONE" or "NOASSERTION"

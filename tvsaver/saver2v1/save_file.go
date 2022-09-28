@@ -26,6 +26,9 @@ func renderFile2_1(f *spdx.File2_1, w io.Writer) error {
 	if f.FileChecksumSHA256 != "" {
 		fmt.Fprintf(w, "FileChecksum: SHA256: %s\n", f.FileChecksumSHA256)
 	}
+	if f.FileChecksumSHA512 != "" {
+		fmt.Fprintf(w, "FileChecksum: SHA512: %s\n", f.FileChecksumSHA512)
+	}
 	if f.FileChecksumMD5 != "" {
 		fmt.Fprintf(w, "FileChecksum: MD5: %s\n", f.FileChecksumMD5)
 	}
