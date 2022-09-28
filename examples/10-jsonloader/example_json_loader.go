@@ -12,7 +12,7 @@ import (
 	"os"
 	"strings"
 
-	"github.com/spdx/tools-golang/jsonloader"
+	"github.com/codenotary/spdx-tools/jsonloader"
 )
 
 func main() {

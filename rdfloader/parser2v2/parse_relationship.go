@@ -4,10 +4,11 @@ package parser2v2
 
 import (
 	"fmt"
+	"strings"
+
+	"github.com/codenotary/spdx-tools/spdx"
 	gordfParser "github.com/spdx/gordf/rdfloader/parser"
 	"github.com/spdx/gordf/rdfwriter"
-	"github.com/spdx/tools-golang/spdx"
-	"strings"
 )
 
 // parsing the relationship that exists in the rdf document.

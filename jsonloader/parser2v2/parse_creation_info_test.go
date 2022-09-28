@@ -6,7 +6,7 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/spdx/tools-golang/spdx"
+	"github.com/codenotary/spdx-tools/spdx"
 )
 
 func TestJSONSpdxDocument_parseJsonCreationInfo2_2(t *testing.T) {

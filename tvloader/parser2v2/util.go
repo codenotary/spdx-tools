@@ -6,7 +6,7 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/spdx/tools-golang/spdx"
+	"github.com/codenotary/spdx-tools/spdx"
 )
 
 // used to extract key / value from embedded substrings

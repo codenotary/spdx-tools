@@ -5,7 +5,7 @@ package idsearcher
 import (
 	"testing"
 
-	"github.com/spdx/tools-golang/spdx"
+	"github.com/codenotary/spdx-tools/spdx"
 )
 
 // ===== 2.1 Searcher top-level function tests =====

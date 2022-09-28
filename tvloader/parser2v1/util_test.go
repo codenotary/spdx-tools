@@ -4,7 +4,7 @@ package parser2v1
 import (
 	"testing"
 
-	"github.com/spdx/tools-golang/spdx"
+	"github.com/codenotary/spdx-tools/spdx"
 )
 
 // ===== Helper function tests =====

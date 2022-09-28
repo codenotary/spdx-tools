@@ -3,9 +3,10 @@
 package parser2v2
 
 import (
-	gordfParser "github.com/spdx/gordf/rdfloader/parser"
-	"github.com/spdx/tools-golang/spdx"
 	"testing"
+
+	"github.com/codenotary/spdx-tools/spdx"
+	gordfParser "github.com/spdx/gordf/rdfloader/parser"
 )
 
 func Test_rdfParser2_2_getSnippetInformationFromTriple2_2(t *testing.T) {

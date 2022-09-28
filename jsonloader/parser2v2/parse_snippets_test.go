@@ -8,7 +8,7 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/spdx/tools-golang/spdx"
+	"github.com/codenotary/spdx-tools/spdx"
 )
 
 func TestJSONSpdxDocument_parseJsonSnippets2_2(t *testing.T) {

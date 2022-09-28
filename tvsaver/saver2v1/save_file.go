@@ -7,7 +7,7 @@ import (
 	"io"
 	"sort"
 
-	"github.com/spdx/tools-golang/spdx"
+	"github.com/codenotary/spdx-tools/spdx"
 )
 
 func renderFile2_1(f *spdx.File2_1, w io.Writer) error {

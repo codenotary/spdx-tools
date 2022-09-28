@@ -6,8 +6,8 @@ import (
 	"bytes"
 	"io"
 
-	"github.com/spdx/tools-golang/jsonsaver/saver2v2"
-	"github.com/spdx/tools-golang/spdx"
+	"github.com/codenotary/spdx-tools/jsonsaver/saver2v2"
+	"github.com/codenotary/spdx-tools/spdx"
 )
 
 // Save2_2 takes an io.Writer and an SPDX Document (version 2.2),

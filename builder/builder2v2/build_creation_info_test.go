@@ -6,7 +6,7 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/spdx/tools-golang/spdx"
+	"github.com/codenotary/spdx-tools/spdx"
 )
 
 // ===== CreationInfo section builder tests =====
@@ -56,8 +56,8 @@ func TestBuilder2_2CanBuildCreationInfoSection(t *testing.T) {
 	if len(ci.CreatorTools) != 1 {
 		t.Fatalf("expected %d, got %d", 1, len(ci.CreatorTools))
 	}
-	if ci.CreatorTools[0] != "github.com/spdx/tools-golang/builder" {
-		t.Errorf("expected %s, got %s", "github.com/spdx/tools-golang/builder", ci.CreatorTools[0])
+	if ci.CreatorTools[0] != "github.com/codenotary/spdx-tools/builder" {
+		t.Errorf("expected %s, got %s", "github.com/codenotary/spdx-tools/builder", ci.CreatorTools[0])
 	}
 	if ci.Created != "2018-10-20T16:48:00Z" {
 		t.Errorf("expected %s, got %s", "2018-10-20T16:48:00Z", ci.Created)
@@ -93,8 +93,8 @@ func TestBuilder2_2CanBuildCreationInfoSectionWithCreatorPerson(t *testing.T) {
 	if len(ci.CreatorTools) != 1 {
 		t.Fatalf("expected %d, got %d", 1, len(ci.CreatorTools))
 	}
-	if ci.CreatorTools[0] != "github.com/spdx/tools-golang/builder" {
-		t.Errorf("expected %s, got %s", "github.com/spdx/tools-golang/builder", ci.CreatorTools[0])
+	if ci.CreatorTools[0] != "github.com/codenotary/spdx-tools/builder" {
+		t.Errorf("expected %s, got %s", "github.com/codenotary/spdx-tools/builder", ci.CreatorTools[0])
 	}
 }
 
@@ -124,8 +124,8 @@ func TestBuilder2_2CanBuildCreationInfoSectionWithCreatorTool(t *testing.T) {
 	if len(ci.CreatorTools) != 2 {
 		t.Fatalf("expected %d, got %d", 2, len(ci.CreatorTools))
 	}
-	if ci.CreatorTools[0] != "github.com/spdx/tools-golang/builder" {
-		t.Errorf("expected %s, got %s", "github.com/spdx/tools-golang/builder", ci.CreatorTools[0])
+	if ci.CreatorTools[0] != "github.com/codenotary/spdx-tools/builder" {
+		t.Errorf("expected %s, got %s", "github.com/codenotary/spdx-tools/builder", ci.CreatorTools[0])
 	}
 	if ci.CreatorTools[1] != "some-other-tool-2.1" {
 		t.Errorf("expected %s, got %s", "some-other-tool-2.1", ci.CreatorTools[1])
@@ -161,7 +161,7 @@ func TestBuilder2_2CanBuildCreationInfoSectionWithInvalidPerson(t *testing.T) {
 	if len(ci.CreatorTools) != 1 {
 		t.Fatalf("expected %d, got %d", 1, len(ci.CreatorTools))
 	}
-	if ci.CreatorTools[0] != "github.com/spdx/tools-golang/builder" {
-		t.Errorf("expected %s, got %s", "github.com/spdx/tools-golang/builder", ci.CreatorTools[0])
+	if ci.CreatorTools[0] != "github.com/codenotary/spdx-tools/builder" {
+		t.Errorf("expected %s, got %s", "github.com/codenotary/spdx-tools/builder", ci.CreatorTools[0])
 	}
 }

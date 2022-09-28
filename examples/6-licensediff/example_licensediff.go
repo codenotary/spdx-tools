@@ -15,9 +15,9 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/spdx/tools-golang/licensediff"
-	"github.com/spdx/tools-golang/spdxlib"
-	"github.com/spdx/tools-golang/tvloader"
+	"github.com/codenotary/spdx-tools/licensediff"
+	"github.com/codenotary/spdx-tools/spdxlib"
+	"github.com/codenotary/spdx-tools/tvloader"
 )
 
 func main() {

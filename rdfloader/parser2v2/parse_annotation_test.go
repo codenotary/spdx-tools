@@ -3,8 +3,9 @@
 package parser2v2
 
 import (
-	"github.com/spdx/tools-golang/spdx"
 	"testing"
+
+	"github.com/codenotary/spdx-tools/spdx"
 )
 
 func Test_setAnnotatorFromString(t *testing.T) {

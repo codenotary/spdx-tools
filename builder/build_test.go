@@ -6,7 +6,7 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/spdx/tools-golang/spdx"
+	"github.com/codenotary/spdx-tools/spdx"
 )
 
 // ===== 2.1 Builder top-level Document test =====
@@ -60,8 +60,8 @@ func TestBuild2_1CreatesDocument(t *testing.T) {
 	if len(doc.CreationInfo.CreatorTools) != 1 {
 		t.Fatalf("expected %d, got %d", 1, len(doc.CreationInfo.CreatorTools))
 	}
-	if doc.CreationInfo.CreatorTools[0] != "github.com/spdx/tools-golang/builder" {
-		t.Errorf("expected %s, got %s", "github.com/spdx/tools-golang/builder", doc.CreationInfo.CreatorTools[0])
+	if doc.CreationInfo.CreatorTools[0] != "github.com/codenotary/spdx-tools/builder" {
+		t.Errorf("expected %s, got %s", "github.com/codenotary/spdx-tools/builder", doc.CreationInfo.CreatorTools[0])
 	}
 	if doc.CreationInfo.Created != "2018-10-19T04:38:00Z" {
 		t.Errorf("expected %s, got %s", "2018-10-19T04:38:00Z", doc.CreationInfo.Created)
@@ -433,8 +433,8 @@ func TestBuild2_2CreatesDocument(t *testing.T) {
 	if len(doc.CreationInfo.CreatorTools) != 1 {
 		t.Fatalf("expected %d, got %d", 1, len(doc.CreationInfo.CreatorTools))
 	}
-	if doc.CreationInfo.CreatorTools[0] != "github.com/spdx/tools-golang/builder" {
-		t.Errorf("expected %s, got %s", "github.com/spdx/tools-golang/builder", doc.CreationInfo.CreatorTools[0])
+	if doc.CreationInfo.CreatorTools[0] != "github.com/codenotary/spdx-tools/builder" {
+		t.Errorf("expected %s, got %s", "github.com/codenotary/spdx-tools/builder", doc.CreationInfo.CreatorTools[0])
 	}
 	if doc.CreationInfo.Created != "2018-10-19T04:38:00Z" {
 		t.Errorf("expected %s, got %s", "2018-10-19T04:38:00Z", doc.CreationInfo.Created)

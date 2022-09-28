@@ -5,7 +5,7 @@ package builder2v1
 import (
 	"testing"
 
-	"github.com/spdx/tools-golang/spdx"
+	"github.com/codenotary/spdx-tools/spdx"
 )
 
 // ===== Relationship section builder tests =====

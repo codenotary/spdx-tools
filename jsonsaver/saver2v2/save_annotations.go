@@ -5,7 +5,7 @@ package saver2v2
 import (
 	"fmt"
 
-	"github.com/spdx/tools-golang/spdx"
+	"github.com/codenotary/spdx-tools/spdx"
 )
 
 func renderAnnotations2_2(annotations []*spdx.Annotation2_2, eID spdx.DocElementID) ([]interface{}, error) {

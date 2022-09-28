@@ -4,8 +4,8 @@ SPDXID: SPDXRef-DOCUMENT
 DocumentName: hello-modified
 DocumentNamespace: https://swinslow.net/sampledocs/hello-modified
 Creator: Person: Steve Winslow (steve@swinslow.net)
-Creator: Tool: github.com/spdx/tools-golang/builder
-Creator: Tool: github.com/spdx/tools-golang/idsearcher
+Creator: Tool: github.com/codenotary/spdx-tools/builder
+Creator: Tool: github.com/codenotary/spdx-tools/idsearcher
 Created: 2022-03-30T21:23:00Z
 
 ##### Package: hello

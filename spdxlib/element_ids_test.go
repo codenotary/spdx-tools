@@ -3,9 +3,10 @@
 package spdxlib
 
 import (
-	"github.com/spdx/tools-golang/spdx"
 	"reflect"
 	"testing"
+
+	"github.com/codenotary/spdx-tools/spdx"
 )
 
 func TestSortElementIDs(t *testing.T) {

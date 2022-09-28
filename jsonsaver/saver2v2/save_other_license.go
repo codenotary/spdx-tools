@@ -3,7 +3,7 @@
 package saver2v2
 
 import (
-	"github.com/spdx/tools-golang/spdx"
+	"github.com/codenotary/spdx-tools/spdx"
 )
 
 func renderOtherLicenses2_2(otherlicenses []*spdx.OtherLicense2_2, jsondocument map[string]interface{}) ([]interface{}, error) {

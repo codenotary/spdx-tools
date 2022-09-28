@@ -6,7 +6,7 @@ import (
 	"fmt"
 	"reflect"
 
-	"github.com/spdx/tools-golang/spdx"
+	"github.com/codenotary/spdx-tools/spdx"
 )
 
 func (spec JSONSpdxDocument) parseJsonOtherLicenses2_2(key string, value interface{}, doc *spdxDocument2_2) error {

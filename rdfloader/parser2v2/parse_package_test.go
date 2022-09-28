@@ -6,8 +6,8 @@ import (
 	"reflect"
 	"testing"
 
+	"github.com/codenotary/spdx-tools/spdx"
 	gordfParser "github.com/spdx/gordf/rdfloader/parser"
-	"github.com/spdx/tools-golang/spdx"
 )
 
 func Test_setPackageSupplier(t *testing.T) {

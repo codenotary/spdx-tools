@@ -1,7 +1,7 @@
-[![Build Status](https://github.com/spdx/tools-golang/workflows/build/badge.svg)](https://github.com/spdx/tools-golang/actions)
+[![Build Status](https://github.com/codenotary/spdx-tools/workflows/build/badge.svg)](https://github.com/codenotary/spdx-tools/actions)
 [![Coverage Status](https://coveralls.io/repos/github/spdx/tools-golang/badge.svg)](https://coveralls.io/github/spdx/tools-golang)
-[![GitHub release](https://img.shields.io/github/release/spdx/tools-golang.svg)](https://github.com/spdx/tools-golang/releases/latest)
-[![Go Reference](https://pkg.go.dev/badge/github.com/spdx/tools-golang.svg)](https://pkg.go.dev/github.com/spdx/tools-golang)
+[![GitHub release](https://img.shields.io/github/release/spdx/tools-golang.svg)](https://github.com/codenotary/spdx-tools/releases/latest)
+[![Go Reference](https://pkg.go.dev/badge/github.com/codenotary/spdx-tools.svg)](https://pkg.go.dev/github.com/codenotary/spdx-tools)
 [![CII Best Practices](https://bestpractices.coreinfrastructure.org/projects/5710/badge)](https://bestpractices.coreinfrastructure.org/projects/5710)
 
 # SPDX tools-golang
@@ -59,7 +59,7 @@ library.
 
 ## Documentation
 
-SPDX tools-golang documentation is available on the pkg.go.dev website at https://pkg.go.dev/github.com/spdx/tools-golang.
+SPDX tools-golang documentation is available on the pkg.go.dev website at https://pkg.go.dev/github.com/codenotary/spdx-tools.
 
 ## Contributors
 

@@ -4,7 +4,7 @@
 package licensediff
 
 import (
-	"github.com/spdx/tools-golang/spdx"
+	"github.com/codenotary/spdx-tools/spdx"
 )
 
 // LicensePair is a result set where we are talking about two license strings,

@@ -3,7 +3,7 @@
 package saver2v2
 
 import (
-	"github.com/spdx/tools-golang/spdx"
+	"github.com/codenotary/spdx-tools/spdx"
 )
 
 func renderRelationships2_2(relationships []*spdx.Relationship2_2, jsondocument map[string]interface{}) ([]interface{}, error) {

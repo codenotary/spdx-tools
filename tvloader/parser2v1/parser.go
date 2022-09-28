@@ -6,8 +6,8 @@ package parser2v1
 import (
 	"fmt"
 
-	"github.com/spdx/tools-golang/spdx"
-	"github.com/spdx/tools-golang/tvloader/reader"
+	"github.com/codenotary/spdx-tools/spdx"
+	"github.com/codenotary/spdx-tools/tvloader/reader"
 )
 
 // ParseTagValues takes a list of (tag, value) pairs, parses it and returns

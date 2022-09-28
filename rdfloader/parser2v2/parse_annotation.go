@@ -5,8 +5,9 @@ package parser2v2
 import (
 	"errors"
 	"fmt"
+
+	"github.com/codenotary/spdx-tools/spdx"
 	gordfParser "github.com/spdx/gordf/rdfloader/parser"
-	"github.com/spdx/tools-golang/spdx"
 )
 
 // creates a new instance of annotation and sets the annotation attributes
