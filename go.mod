@@ -1,4 +1,4 @@
-module github.com/spdx/tools-golang
+module github.com/codenotary/spdx-tools
 
 go 1.13
 
