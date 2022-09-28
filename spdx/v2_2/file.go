@@ -2,7 +2,7 @@
 
 package v2_2
 
-import "github.com/spdx/tools-golang/spdx/common"
+import "github.com/codenotary/spdx-tools/spdx/common"
 
 // File is a File section of an SPDX Document for version 2.2 of the spec.
 type File struct {

@@ -7,7 +7,7 @@ import (
 	"os"
 	"strings"
 
-	"github.com/spdx/tools-golang/rdfloader"
+	"github.com/codenotary/spdx-tools/rdfloader"
 )
 
 func getFilePathFromUser() (string, error) {

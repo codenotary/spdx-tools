@@ -6,7 +6,7 @@ import (
 	"fmt"
 	"io"
 
-	"github.com/spdx/tools-golang/spdx/v2_1"
+	"github.com/codenotary/spdx-tools/spdx/v2_1"
 )
 
 func renderOtherLicense2_1(ol *v2_1.OtherLicense, w io.Writer) error {

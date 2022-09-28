@@ -6,16 +6,16 @@ package spdxlib
 import (
 	"fmt"
 
-	"github.com/spdx/tools-golang/spdx/common"
-	"github.com/spdx/tools-golang/spdx/v2_1"
-	"github.com/spdx/tools-golang/spdx/v2_2"
+	"github.com/codenotary/spdx-tools/spdx/common"
+	"github.com/codenotary/spdx-tools/spdx/v2_1"
+	"github.com/codenotary/spdx-tools/spdx/v2_2"
 )
 
 // GetDescribedPackageIDs2_1 returns a slice of ElementIDs for all Packages
 // in this Document that it "describes," according to SPDX rules:
-// - If the document has only one Package, its ID is returned.
-// - If the document has 2+ Packages, it returns the IDs of those that have
-//   a DESCRIBES (or DESCRIBED_BY) relationship to this DOCUMENT.
+//   - If the document has only one Package, its ID is returned.
+//   - If the document has 2+ Packages, it returns the IDs of those that have
+//     a DESCRIBES (or DESCRIBED_BY) relationship to this DOCUMENT.
 func GetDescribedPackageIDs2_1(doc *v2_1.Document) ([]common.ElementID, error) {
 	// if nil Packages map or zero packages in it, return empty slice
 	if doc.Packages == nil {
@@ -64,9 +64,9 @@ func GetDescribedPackageIDs2_1(doc *v2_1.Document) ([]common.ElementID, error) {
 
 // GetDescribedPackageIDs2_2 returns a slice of ElementIDs for all Packages
 // in this Document that it "describes," according to SPDX rules:
-// - If the document has only one Package, its ID is returned.
-// - If the document has 2+ Packages, it returns the IDs of those that have
-//   a DESCRIBES (or DESCRIBED_BY) relationship to this DOCUMENT.
+//   - If the document has only one Package, its ID is returned.
+//   - If the document has 2+ Packages, it returns the IDs of those that have
+//     a DESCRIBES (or DESCRIBED_BY) relationship to this DOCUMENT.
 func GetDescribedPackageIDs2_2(doc *v2_2.Document) ([]common.ElementID, error) {
 	// if nil Packages map or zero packages in it, return empty slice
 	if doc.Packages == nil {

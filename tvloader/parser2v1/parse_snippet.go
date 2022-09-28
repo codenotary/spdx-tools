@@ -6,8 +6,8 @@ import (
 	"fmt"
 	"strconv"
 
-	"github.com/spdx/tools-golang/spdx/common"
-	"github.com/spdx/tools-golang/spdx/v2_1"
+	"github.com/codenotary/spdx-tools/spdx/common"
+	"github.com/codenotary/spdx-tools/spdx/v2_1"
 )
 
 func (parser *tvParser2_1) parsePairFromSnippet2_1(tag string, value string) error {

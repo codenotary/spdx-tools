@@ -4,7 +4,7 @@ package parser2v2
 import (
 	"testing"
 
-	"github.com/spdx/tools-golang/tvloader/reader"
+	"github.com/codenotary/spdx-tools/tvloader/reader"
 )
 
 // ===== Parser exported entry point tests =====

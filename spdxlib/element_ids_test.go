@@ -6,7 +6,7 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/spdx/tools-golang/spdx/common"
+	"github.com/codenotary/spdx-tools/spdx/common"
 )
 
 func TestSortElementIDs(t *testing.T) {

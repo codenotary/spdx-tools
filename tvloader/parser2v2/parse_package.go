@@ -6,8 +6,8 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/spdx/tools-golang/spdx/common"
-	"github.com/spdx/tools-golang/spdx/v2_2"
+	"github.com/codenotary/spdx-tools/spdx/common"
+	"github.com/codenotary/spdx-tools/spdx/v2_2"
 )
 
 func (parser *tvParser2_2) parsePairFromPackage2_2(tag string, value string) error {

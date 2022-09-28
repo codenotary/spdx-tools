@@ -6,9 +6,9 @@ import (
 	"reflect"
 	"testing"
 
+	"github.com/codenotary/spdx-tools/spdx/common"
+	"github.com/codenotary/spdx-tools/spdx/v2_2"
 	"github.com/spdx/gordf/rdfwriter"
-	"github.com/spdx/tools-golang/spdx/common"
-	"github.com/spdx/tools-golang/spdx/v2_2"
 )
 
 func Test_getReferenceFromURI(t *testing.T) {

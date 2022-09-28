@@ -8,9 +8,9 @@ import (
 	"regexp"
 	"runtime"
 
-	"github.com/spdx/tools-golang/spdx/common"
-	"github.com/spdx/tools-golang/spdx/v2_2"
-	"github.com/spdx/tools-golang/utils"
+	"github.com/codenotary/spdx-tools/spdx/common"
+	"github.com/codenotary/spdx-tools/spdx/v2_2"
+	"github.com/codenotary/spdx-tools/utils"
 )
 
 // BuildPackageSection2_2 creates an SPDX Package (version 2.2), returning

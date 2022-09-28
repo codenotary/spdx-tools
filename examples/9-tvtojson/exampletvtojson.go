@@ -11,8 +11,8 @@ import (
 	"fmt"
 	"os"
 
-	spdx_json "github.com/spdx/tools-golang/json"
-	"github.com/spdx/tools-golang/tvloader"
+	spdx_json "github.com/codenotary/spdx-tools/json"
+	"github.com/codenotary/spdx-tools/tvloader"
 )
 
 func main() {

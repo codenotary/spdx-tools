@@ -5,8 +5,8 @@ package builder2v2
 import (
 	"fmt"
 
-	"github.com/spdx/tools-golang/spdx/common"
-	"github.com/spdx/tools-golang/spdx/v2_2"
+	"github.com/codenotary/spdx-tools/spdx/common"
+	"github.com/codenotary/spdx-tools/spdx/v2_2"
 )
 
 // BuildRelationshipSection2_2 creates an SPDX Relationship (version 2.2)

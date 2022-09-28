@@ -7,10 +7,10 @@ import (
 	"fmt"
 	"strings"
 
+	"github.com/codenotary/spdx-tools/spdx/common"
 	gordfParser "github.com/spdx/gordf/rdfloader/parser"
 	"github.com/spdx/gordf/rdfwriter"
 	urilib "github.com/spdx/gordf/uri"
-	"github.com/spdx/tools-golang/spdx/common"
 )
 
 // a uri is of type baseURI#fragment or baseFragment/subFragment

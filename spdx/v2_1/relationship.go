@@ -2,7 +2,7 @@
 
 package v2_1
 
-import "github.com/spdx/tools-golang/spdx/common"
+import "github.com/codenotary/spdx-tools/spdx/common"
 
 // Relationship is a Relationship section of an SPDX Document for
 // version 2.1 of the spec.

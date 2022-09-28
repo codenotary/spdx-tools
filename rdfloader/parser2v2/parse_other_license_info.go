@@ -5,9 +5,9 @@ package parser2v2
 import (
 	"fmt"
 
+	"github.com/codenotary/spdx-tools/spdx/v2_2"
 	gordfParser "github.com/spdx/gordf/rdfloader/parser"
 	"github.com/spdx/gordf/rdfwriter"
-	"github.com/spdx/tools-golang/spdx/v2_2"
 )
 
 func (parser *rdfParser2_2) getExtractedLicensingInfoFromNode(node *gordfParser.Node) (lic ExtractedLicensingInfo, err error) {

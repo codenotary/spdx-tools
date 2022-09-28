@@ -12,8 +12,8 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/spdx/tools-golang/tvsaver"
-	spdx_yaml "github.com/spdx/tools-golang/yaml"
+	"github.com/codenotary/spdx-tools/tvsaver"
+	spdx_yaml "github.com/codenotary/spdx-tools/yaml"
 )
 
 func main() {

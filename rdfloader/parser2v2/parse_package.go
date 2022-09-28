@@ -6,9 +6,9 @@ import (
 	"fmt"
 	"strings"
 
+	"github.com/codenotary/spdx-tools/spdx/common"
+	"github.com/codenotary/spdx-tools/spdx/v2_2"
 	gordfParser "github.com/spdx/gordf/rdfloader/parser"
-	"github.com/spdx/tools-golang/spdx/common"
-	"github.com/spdx/tools-golang/spdx/v2_2"
 )
 
 func (parser *rdfParser2_2) getPackageFromNode(packageNode *gordfParser.Node) (pkg *v2_2.Package, err error) {
@@ -237,7 +237,8 @@ func (parser *rdfParser2_2) setFileToPackage(pkg *v2_2.Package, file *v2_2.File)
 
 // given a supplierObject, sets the PackageSupplier attribute of the pkg.
 // Args:
-//    value: [NOASSERTION | [Person | Organization]: string]
+//
+//	value: [NOASSERTION | [Person | Organization]: string]
 func setPackageSupplier(pkg *v2_2.Package, value string) error {
 	value = strings.TrimSpace(value)
 	supplier := &common.Supplier{}
@@ -266,7 +267,8 @@ func setPackageSupplier(pkg *v2_2.Package, value string) error {
 
 // given a OriginatorObject, sets the PackageOriginator attribute of the pkg.
 // Args:
-//    value: [NOASSERTION | [Person | Organization]: string]
+//
+//	value: [NOASSERTION | [Person | Organization]: string]
 func setPackageOriginator(pkg *v2_2.Package, value string) error {
 	value = strings.TrimSpace(value)
 	originator := &common.Originator{}

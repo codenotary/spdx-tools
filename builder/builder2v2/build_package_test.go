@@ -5,7 +5,7 @@ package builder2v2
 import (
 	"testing"
 
-	"github.com/spdx/tools-golang/spdx/common"
+	"github.com/codenotary/spdx-tools/spdx/common"
 )
 
 // ===== Package section builder tests =====

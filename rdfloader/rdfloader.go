@@ -5,9 +5,9 @@ package rdfloader
 import (
 	"io"
 
+	"github.com/codenotary/spdx-tools/rdfloader/parser2v2"
+	"github.com/codenotary/spdx-tools/spdx/v2_2"
 	"github.com/spdx/gordf/rdfloader"
-	"github.com/spdx/tools-golang/rdfloader/parser2v2"
-	"github.com/spdx/tools-golang/spdx/v2_2"
 )
 
 // Takes in a file Reader and returns the pertaining spdx document

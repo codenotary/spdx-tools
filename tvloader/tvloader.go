@@ -6,11 +6,11 @@ package tvloader
 import (
 	"io"
 
-	"github.com/spdx/tools-golang/spdx/v2_1"
-	"github.com/spdx/tools-golang/spdx/v2_2"
-	"github.com/spdx/tools-golang/tvloader/parser2v1"
-	"github.com/spdx/tools-golang/tvloader/parser2v2"
-	"github.com/spdx/tools-golang/tvloader/reader"
+	"github.com/codenotary/spdx-tools/spdx/v2_1"
+	"github.com/codenotary/spdx-tools/spdx/v2_2"
+	"github.com/codenotary/spdx-tools/tvloader/parser2v1"
+	"github.com/codenotary/spdx-tools/tvloader/parser2v2"
+	"github.com/codenotary/spdx-tools/tvloader/reader"
 )
 
 // Load2_1 takes an io.Reader and returns a fully-parsed SPDX Document

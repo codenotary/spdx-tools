@@ -5,7 +5,7 @@ package parser2v2
 import (
 	"fmt"
 
-	"github.com/spdx/tools-golang/spdx/v2_2"
+	"github.com/codenotary/spdx-tools/spdx/v2_2"
 )
 
 func (parser *tvParser2_2) parsePairFromReview2_2(tag string, value string) error {

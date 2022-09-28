@@ -5,9 +5,9 @@ package parser2v2
 import (
 	"fmt"
 
+	"github.com/codenotary/spdx-tools/spdx/common"
+	"github.com/codenotary/spdx-tools/spdx/v2_2"
 	gordfParser "github.com/spdx/gordf/rdfloader/parser"
-	"github.com/spdx/tools-golang/spdx/common"
-	"github.com/spdx/tools-golang/spdx/v2_2"
 )
 
 func (parser *rdfParser2_2) parseSpdxDocumentNode(spdxDocNode *gordfParser.Node) (err error) {

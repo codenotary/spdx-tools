@@ -7,11 +7,11 @@ package builder
 import (
 	"fmt"
 
-	"github.com/spdx/tools-golang/builder/builder2v1"
-	"github.com/spdx/tools-golang/builder/builder2v2"
-	"github.com/spdx/tools-golang/spdx/common"
-	"github.com/spdx/tools-golang/spdx/v2_1"
-	"github.com/spdx/tools-golang/spdx/v2_2"
+	"github.com/codenotary/spdx-tools/builder/builder2v1"
+	"github.com/codenotary/spdx-tools/builder/builder2v2"
+	"github.com/codenotary/spdx-tools/spdx/common"
+	"github.com/codenotary/spdx-tools/spdx/v2_1"
+	"github.com/codenotary/spdx-tools/spdx/v2_2"
 )
 
 // ===== 2.1 builder =====

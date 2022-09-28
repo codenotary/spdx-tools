@@ -15,10 +15,10 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/spdx/tools-golang/licensediff"
-	"github.com/spdx/tools-golang/spdx/v2_2"
-	"github.com/spdx/tools-golang/spdxlib"
-	"github.com/spdx/tools-golang/tvloader"
+	"github.com/codenotary/spdx-tools/licensediff"
+	"github.com/codenotary/spdx-tools/spdx/v2_2"
+	"github.com/codenotary/spdx-tools/spdxlib"
+	"github.com/codenotary/spdx-tools/tvloader"
 )
 
 func main() {

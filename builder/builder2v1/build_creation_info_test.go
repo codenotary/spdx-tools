@@ -27,8 +27,8 @@ func TestBuilder2_1CanBuildCreationInfoSection(t *testing.T) {
 	if ci.Creators[1].Creator != "Jane Doe LLC" {
 		t.Errorf("expected %s, got %s", "Jane Doe LLC", ci.Creators[1].Creator)
 	}
-	if ci.Creators[0].Creator != "github.com/spdx/tools-golang/builder" {
-		t.Errorf("expected %s, got %s", "github.com/spdx/tools-golang/builder", ci.Creators[0].Creator)
+	if ci.Creators[0].Creator != "github.com/codenotary/spdx-tools/builder" {
+		t.Errorf("expected %s, got %s", "github.com/codenotary/spdx-tools/builder", ci.Creators[0].Creator)
 	}
 	if ci.Created != "2018-10-20T16:48:00Z" {
 		t.Errorf("expected %s, got %s", "2018-10-20T16:48:00Z", ci.Created)
@@ -55,8 +55,8 @@ func TestBuilder2_1CanBuildCreationInfoSectionWithCreatorPerson(t *testing.T) {
 	if ci.Creators[1].Creator != "John Doe" {
 		t.Errorf("expected %s, got %s", "John Doe", ci.Creators[1].Creator)
 	}
-	if ci.Creators[0].Creator != "github.com/spdx/tools-golang/builder" {
-		t.Errorf("expected %s, got %s", "github.com/spdx/tools-golang/builder", ci.Creators[0].Creator)
+	if ci.Creators[0].Creator != "github.com/codenotary/spdx-tools/builder" {
+		t.Errorf("expected %s, got %s", "github.com/codenotary/spdx-tools/builder", ci.Creators[0].Creator)
 	}
 }
 
@@ -77,8 +77,8 @@ func TestBuilder2_1CanBuildCreationInfoSectionWithCreatorTool(t *testing.T) {
 	if len(ci.Creators) != 2 {
 		t.Fatalf("expected %d, got %d", 2, len(ci.Creators))
 	}
-	if ci.Creators[0].Creator != "github.com/spdx/tools-golang/builder" {
-		t.Errorf("expected %s, got %s", "github.com/spdx/tools-golang/builder", ci.Creators[0])
+	if ci.Creators[0].Creator != "github.com/codenotary/spdx-tools/builder" {
+		t.Errorf("expected %s, got %s", "github.com/codenotary/spdx-tools/builder", ci.Creators[0])
 	}
 	if ci.Creators[1].Creator != "some-other-tool-2.1" {
 		t.Errorf("expected %s, got %s", "some-other-tool-2.1", ci.Creators[1])
@@ -105,7 +105,7 @@ func TestBuilder2_1CanBuildCreationInfoSectionWithInvalidPerson(t *testing.T) {
 	if ci.Creators[1].Creator != "John Doe" {
 		t.Errorf("expected %s, got %s", "John Doe", ci.Creators[1])
 	}
-	if ci.Creators[0].Creator != "github.com/spdx/tools-golang/builder" {
-		t.Errorf("expected %s, got %s", "github.com/spdx/tools-golang/builder", ci.Creators[0])
+	if ci.Creators[0].Creator != "github.com/codenotary/spdx-tools/builder" {
+		t.Errorf("expected %s, got %s", "github.com/codenotary/spdx-tools/builder", ci.Creators[0])
 	}
 }
