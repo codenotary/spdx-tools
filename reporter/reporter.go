@@ -10,7 +10,7 @@ import (
 	"sort"
 	"text/tabwriter"
 
-	"github.com/codenotary/spdx-tools/spdx"
+	"github.com/spdx/tools-golang/spdx"
 )
 
 // ===== 2.1 Reporter functions =====

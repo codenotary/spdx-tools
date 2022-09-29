@@ -6,8 +6,8 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/codenotary/spdx-tools/spdx"
 	gordfParser "github.com/spdx/gordf/rdfloader/parser"
+	"github.com/spdx/tools-golang/spdx"
 )
 
 // returns a file instance and the error if any encountered.

@@ -5,7 +5,7 @@ package utils
 import (
 	"testing"
 
-	"github.com/codenotary/spdx-tools/spdx"
+	"github.com/spdx/tools-golang/spdx"
 )
 
 // ===== 2.1 Verification code functionality tests =====

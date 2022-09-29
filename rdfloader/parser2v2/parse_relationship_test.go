@@ -3,11 +3,10 @@
 package parser2v2
 
 import (
+	"github.com/spdx/gordf/rdfwriter"
+	"github.com/spdx/tools-golang/spdx"
 	"reflect"
 	"testing"
-
-	"github.com/codenotary/spdx-tools/spdx"
-	"github.com/spdx/gordf/rdfwriter"
 )
 
 func Test_getReferenceFromURI(t *testing.T) {

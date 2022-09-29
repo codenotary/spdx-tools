@@ -2,7 +2,7 @@
 
 package parser2v2
 
-import "github.com/codenotary/spdx-tools/spdx"
+import "github.com/spdx/tools-golang/spdx"
 
 type spdxDocument2_2 spdx.Document2_2
 

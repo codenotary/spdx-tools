@@ -8,10 +8,10 @@ import (
 	"encoding/json"
 	"fmt"
 
-	"github.com/codenotary/spdx-tools/spdx"
+	"github.com/spdx/tools-golang/spdx"
 )
 
-// TODO : return spdx.Document2_2
+//TODO : return spdx.Document2_2
 func Load2_2(content []byte) (*spdx.Document2_2, error) {
 	// check whetehr the Json is valid or not
 	if !json.Valid(content) {

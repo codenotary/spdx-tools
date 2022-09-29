@@ -6,7 +6,7 @@ import (
 	"fmt"
 	"sort"
 
-	"github.com/codenotary/spdx-tools/spdx"
+	"github.com/spdx/tools-golang/spdx"
 )
 
 func renderPackage2_2(doc *spdx.Document2_2, jsondocument map[string]interface{}, allfiles map[spdx.ElementID]*spdx.File2_2) ([]interface{}, error) {

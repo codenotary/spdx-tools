@@ -7,7 +7,7 @@ import (
 	"reflect"
 	"strings"
 
-	"github.com/codenotary/spdx-tools/spdx"
+	"github.com/spdx/tools-golang/spdx"
 )
 
 func (spec JSONSpdxDocument) parseJsonCreationInfo2_2(key string, value interface{}, doc *spdxDocument2_2) error {

@@ -13,9 +13,9 @@ import (
 	"sort"
 	"strings"
 
-	"github.com/codenotary/spdx-tools/builder"
-	"github.com/codenotary/spdx-tools/spdx"
-	"github.com/codenotary/spdx-tools/utils"
+	"github.com/spdx/tools-golang/builder"
+	"github.com/spdx/tools-golang/spdx"
+	"github.com/spdx/tools-golang/utils"
 )
 
 // ===== 2.1 Searcher functions =====
@@ -55,7 +55,7 @@ func BuildIDsDocument2_1(packageName string, dirRoot string, idconfig *Config2_1
 	bconfig := &builder.Config2_1{
 		NamespacePrefix: idconfig.NamespacePrefix,
 		CreatorType:     "Tool",
-		Creator:         "github.com/codenotary/spdx-tools/idsearcher",
+		Creator:         "github.com/spdx/tools-golang/idsearcher",
 		PathsIgnored:    idconfig.BuilderPathsIgnored,
 	}
 	doc, err := builder.Build2_1(packageName, dirRoot, bconfig)
@@ -179,7 +179,7 @@ func BuildIDsDocument2_2(packageName string, dirRoot string, idconfig *Config2_2
 	bconfig := &builder.Config2_2{
 		NamespacePrefix: idconfig.NamespacePrefix,
 		CreatorType:     "Tool",
-		Creator:         "github.com/codenotary/spdx-tools/idsearcher",
+		Creator:         "github.com/spdx/tools-golang/idsearcher",
 		PathsIgnored:    idconfig.BuilderPathsIgnored,
 	}
 	doc, err := builder.Build2_2(packageName, dirRoot, bconfig)

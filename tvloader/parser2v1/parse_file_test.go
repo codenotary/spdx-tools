@@ -4,7 +4,7 @@ package parser2v1
 import (
 	"testing"
 
-	"github.com/codenotary/spdx-tools/spdx"
+	"github.com/spdx/tools-golang/spdx"
 )
 
 // ===== Parser file section state change tests =====

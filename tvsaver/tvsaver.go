@@ -6,9 +6,9 @@ package tvsaver
 import (
 	"io"
 
-	"github.com/codenotary/spdx-tools/spdx"
-	"github.com/codenotary/spdx-tools/tvsaver/saver2v1"
-	"github.com/codenotary/spdx-tools/tvsaver/saver2v2"
+	"github.com/spdx/tools-golang/spdx"
+	"github.com/spdx/tools-golang/tvsaver/saver2v1"
+	"github.com/spdx/tools-golang/tvsaver/saver2v2"
 )
 
 // Save2_1 takes an io.Writer and an SPDX Document (version 2.1),

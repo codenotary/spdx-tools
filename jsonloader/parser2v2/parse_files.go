@@ -6,10 +6,10 @@ import (
 	"fmt"
 	"reflect"
 
-	"github.com/codenotary/spdx-tools/spdx"
+	"github.com/spdx/tools-golang/spdx"
 )
 
-// TODO: check whether file can contain annotations or not
+//TODO: check whether file can contain annotations or not
 func (spec JSONSpdxDocument) parseJsonFiles2_2(key string, value interface{}, doc *spdxDocument2_2) error {
 
 	if doc.UnpackagedFiles == nil {

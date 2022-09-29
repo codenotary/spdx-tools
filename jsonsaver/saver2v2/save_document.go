@@ -9,8 +9,8 @@ import (
 	"encoding/json"
 	"fmt"
 
-	"github.com/codenotary/spdx-tools/spdx"
-	"github.com/codenotary/spdx-tools/spdxlib"
+	"github.com/spdx/tools-golang/spdx"
+	"github.com/spdx/tools-golang/spdxlib"
 )
 
 // RenderDocument2_2 is the main entry point to take an SPDX in-memory

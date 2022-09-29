@@ -3,7 +3,7 @@
 package parser2v1
 
 import (
-	"github.com/codenotary/spdx-tools/spdx"
+	"github.com/spdx/tools-golang/spdx"
 )
 
 type tvParser2_1 struct {

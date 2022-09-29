@@ -4,7 +4,7 @@ package parser2v1
 import (
 	"testing"
 
-	"github.com/codenotary/spdx-tools/spdx"
+	"github.com/spdx/tools-golang/spdx"
 )
 
 // ===== Annotation section tests =====
@@ -156,3 +156,4 @@ func TestParser2_1FailsIfAnnotationRefInvalid(t *testing.T) {
 		t.Errorf("expected non-nil error, got nil")
 	}
 }
+

@@ -7,7 +7,7 @@ import (
 	"io"
 	"sort"
 
-	"github.com/codenotary/spdx-tools/spdx"
+	"github.com/spdx/tools-golang/spdx"
 )
 
 func renderCreationInfo2_2(ci *spdx.CreationInfo2_2, w io.Writer) error {

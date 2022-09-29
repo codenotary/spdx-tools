@@ -6,7 +6,7 @@ import (
 	"fmt"
 	"io"
 
-	"github.com/codenotary/spdx-tools/spdx"
+	"github.com/spdx/tools-golang/spdx"
 )
 
 func renderSnippet2_2(sn *spdx.Snippet2_2, w io.Writer) error {

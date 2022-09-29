@@ -12,8 +12,8 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/codenotary/spdx-tools/tvloader"
-	"github.com/codenotary/spdx-tools/tvsaver"
+	"github.com/spdx/tools-golang/tvloader"
+	"github.com/spdx/tools-golang/tvsaver"
 )
 
 func main() {

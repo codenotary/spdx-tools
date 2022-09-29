@@ -6,7 +6,7 @@ import (
 	"bytes"
 	"testing"
 
-	"github.com/codenotary/spdx-tools/spdx"
+	"github.com/spdx/tools-golang/spdx"
 )
 
 // ===== Creation Info section Saver tests =====

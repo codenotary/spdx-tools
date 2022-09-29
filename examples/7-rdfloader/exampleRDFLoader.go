@@ -4,10 +4,9 @@ package main
 
 import (
 	"fmt"
+	"github.com/spdx/tools-golang/rdfloader"
 	"os"
 	"strings"
-
-	"github.com/codenotary/spdx-tools/rdfloader"
 )
 
 func getFilePathFromUser() (string, error) {

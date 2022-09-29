@@ -10,7 +10,7 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/codenotary/spdx-tools/spdx"
+	"github.com/spdx/tools-golang/spdx"
 )
 
 //TODO: json validity check

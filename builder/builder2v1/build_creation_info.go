@@ -6,7 +6,7 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/codenotary/spdx-tools/spdx"
+	"github.com/spdx/tools-golang/spdx"
 )
 
 // BuildCreationInfoSection2_1 creates an SPDX Package (version 2.1), returning that
@@ -23,7 +23,7 @@ func BuildCreationInfoSection2_1(packageName string, code string, namespacePrefi
 	cOrganizations := []string{}
 	cTools := []string{}
 	// add builder as a tool
-	cTools = append(cTools, "github.com/codenotary/spdx-tools/builder")
+	cTools = append(cTools, "github.com/spdx/tools-golang/builder")
 
 	switch creatorType {
 	case "Person":

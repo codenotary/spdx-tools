@@ -5,7 +5,7 @@ package parser2v1
 import (
 	"fmt"
 
-	"github.com/codenotary/spdx-tools/spdx"
+	"github.com/spdx/tools-golang/spdx"
 )
 
 func (parser *tvParser2_1) parsePairFromFile2_1(tag string, value string) error {

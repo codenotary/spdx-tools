@@ -6,7 +6,7 @@ import (
 	"fmt"
 	"reflect"
 
-	"github.com/codenotary/spdx-tools/spdx"
+	"github.com/spdx/tools-golang/spdx"
 )
 
 func (spec JSONSpdxDocument) parseJsonAnnotations2_2(key string, value interface{}, doc *spdxDocument2_2, SPDXElementId spdx.DocElementID) error {

@@ -6,8 +6,8 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/codenotary/spdx-tools/spdx"
 	gordfParser "github.com/spdx/gordf/rdfloader/parser"
+	"github.com/spdx/tools-golang/spdx"
 )
 
 func (parser *rdfParser2_2) getPackageFromNode(packageNode *gordfParser.Node) (pkg *spdx.Package2_2, err error) {
@@ -225,8 +225,7 @@ func (parser *rdfParser2_2) setFileToPackage(pkg *spdx.Package2_2, file *spdx.Fi
 
 // given a supplierObject, sets the PackageSupplier attribute of the pkg.
 // Args:
-//
-//	value: [NOASSERTION | [Person | Organization]: string]
+//    value: [NOASSERTION | [Person | Organization]: string]
 func setPackageSupplier(pkg *spdx.Package2_2, value string) error {
 	value = strings.TrimSpace(value)
 	if strings.ToUpper(value) == "NOASSERTION" {
@@ -250,8 +249,7 @@ func setPackageSupplier(pkg *spdx.Package2_2, value string) error {
 
 // given a OriginatorObject, sets the PackageOriginator attribute of the pkg.
 // Args:
-//
-//	value: [NOASSERTION | [Person | Organization]: string]
+//    value: [NOASSERTION | [Person | Organization]: string]
 func setPackageOriginator(pkg *spdx.Package2_2, value string) error {
 	value = strings.TrimSpace(value)
 	if strings.ToUpper(value) == "NOASSERTION" {

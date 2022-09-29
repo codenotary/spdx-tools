@@ -6,7 +6,7 @@ import (
 	"fmt"
 	"io"
 
-	"github.com/codenotary/spdx-tools/spdx"
+	"github.com/spdx/tools-golang/spdx"
 )
 
 func renderAnnotation2_1(ann *spdx.Annotation2_1, w io.Writer) error {

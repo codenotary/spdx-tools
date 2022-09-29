@@ -6,8 +6,8 @@ import (
 	"bytes"
 	"io"
 
-	parser2v2 "github.com/codenotary/spdx-tools/jsonloader/parser2v2"
-	"github.com/codenotary/spdx-tools/spdx"
+	parser2v2 "github.com/spdx/tools-golang/jsonloader/parser2v2"
+	"github.com/spdx/tools-golang/spdx"
 )
 
 // Takes in a file Reader and returns the pertaining spdx document

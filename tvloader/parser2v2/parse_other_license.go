@@ -5,7 +5,7 @@ package parser2v2
 import (
 	"fmt"
 
-	"github.com/codenotary/spdx-tools/spdx"
+	"github.com/spdx/tools-golang/spdx"
 )
 
 func (parser *tvParser2_2) parsePairFromOtherLicense2_2(tag string, value string) error {

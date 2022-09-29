@@ -9,7 +9,7 @@ import (
 	"sort"
 	"strings"
 
-	"github.com/codenotary/spdx-tools/spdx"
+	"github.com/spdx/tools-golang/spdx"
 )
 
 // GetVerificationCode2_1 takes a slice of files and an optional filename

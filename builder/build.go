@@ -5,9 +5,9 @@
 package builder
 
 import (
-	"github.com/codenotary/spdx-tools/builder/builder2v1"
-	"github.com/codenotary/spdx-tools/builder/builder2v2"
-	"github.com/codenotary/spdx-tools/spdx"
+	"github.com/spdx/tools-golang/builder/builder2v1"
+	"github.com/spdx/tools-golang/builder/builder2v2"
+	"github.com/spdx/tools-golang/spdx"
 )
 
 // ===== 2.1 builder =====

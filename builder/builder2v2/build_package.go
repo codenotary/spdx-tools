@@ -4,12 +4,11 @@ package builder2v2
 
 import (
 	"fmt"
+	"github.com/spdx/tools-golang/spdx"
+	"github.com/spdx/tools-golang/utils"
 	"path/filepath"
 	"regexp"
 	"runtime"
-
-	"github.com/codenotary/spdx-tools/spdx"
-	"github.com/codenotary/spdx-tools/utils"
 )
 
 // BuildPackageSection2_2 creates an SPDX Package (version 2.2), returning

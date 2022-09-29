@@ -5,7 +5,7 @@ package saver2v2
 import (
 	"fmt"
 
-	"github.com/codenotary/spdx-tools/spdx"
+	"github.com/spdx/tools-golang/spdx"
 )
 
 func renderReviews2_2(reviews []*spdx.Review2_2, jsondocument map[string]interface{}) ([]interface{}, error) {
